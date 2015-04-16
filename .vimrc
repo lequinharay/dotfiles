@@ -15,7 +15,7 @@ set softtabstop=0
 set shiftwidth=4
 set autoindent
 
-"set list
+set list
 
 set hlsearch
 set incsearch
@@ -24,14 +24,7 @@ set showmatch
 set smartindent
 
 syntax on
-
-:helptags ~/.vim/doc
-
-"filetype
-autocmd BufNewFile,BufRead *.py set filetype=python
-
-"color
 set background=dark
-colorscheme delek
+colorscheme molokai
+set t_Co=256
 
-setlocal omnifunc=syntaxcomplete#Complete
