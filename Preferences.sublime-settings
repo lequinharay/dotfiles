@@ -8,7 +8,7 @@
 	"draw_white_space": "all",
 	"fade_fold_buttons": false,
 	"font_face": "Migu 1M",
-	"font_size": 12,
+	"font_size": 14,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
