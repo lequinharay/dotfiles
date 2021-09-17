@@ -130,6 +130,16 @@ alias ll='ls -lG'
 alias la='ls -aG'
 alias lla='ls -laG'
 
+# fzf+github repo
+## コマンドの定義
+fzf-github() {
+  cd $(find ~/dev/github/ -depth 2 -name "*" -type d | fzf);
+}
+## キーバインドが参照できるように読み込み
+zle -N fzf-github
+## キーバインドの設定
+bindkey '^}' fzf-github
+
 case "${TERM}" in
 kterm*|xterm)
     precmd() {
@@ -154,3 +164,5 @@ function server() {
 
 # for Stagehead
 alias testc="testrunner cakephp -p ~/.composer/vendor/autoload.php --cakephp-app-path='app'"
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
