@@ -166,3 +166,14 @@ function server() {
 alias testc="testrunner cakephp -p ~/.composer/vendor/autoload.php --cakephp-app-path='app'"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+## for phpbrew
+export PATH="/usr/local/opt/curl/bin:$PATH"
+export PATH="/usr/local/opt/icu4c/bin:$PATH"
+export PATH="/usr/local/opt/icu4c/sbin:$PATH"
+export PATH="/usr/local/opt/libxml2/bin:$PATH"
+export PATH="/usr/local/opt/openssl@1.1/bin:$PATH"
+[[ -e ~/.phpbrew/bashrc ]] && source ~/.phpbrew/bashrc
+export PATH="/usr/local/opt/libiconv/bin:$PATH"
+
+
