@@ -176,4 +176,5 @@ export PATH="/usr/local/opt/openssl@1.1/bin:$PATH"
 [[ -e ~/.phpbrew/bashrc ]] && source ~/.phpbrew/bashrc
 export PATH="/usr/local/opt/libiconv/bin:$PATH"
 
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
