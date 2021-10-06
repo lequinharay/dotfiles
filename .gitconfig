@@ -6,7 +6,7 @@
     autocrlf = input         # CRLFを自動変換
 
 [user]
-	useConfigOnly = true
+    useConfigOnly = true
 
 [color]
     # colorの設定(以下のコマンドは自動で色つける)
