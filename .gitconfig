@@ -2,7 +2,7 @@
     path = ~/.gitconfig-acc
 
 [core]
-    excludesfile = /Users/taro/.gitignore_global
+    excludesfile = ~/.gitignore_global
     autocrlf = input         # CRLFを自動変換
 
 [user]
