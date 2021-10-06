@@ -29,7 +29,7 @@
     ci = commit -a           # modifiedなファイルを全てstageへ
     am = commit --amend      # 直前のcommitを修正
     co = checkout
-    push = push --force-with-lease
+    fpush = push --force-with-lease
     # branch関連
     br = branch
     ba = branch -a           # originも含めた全てのbranchを表示
